@@ -13,6 +13,8 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import custom_object_scope
 
+from tensorflow.keras.layers import AbstractRNNCell
+
 class MappingType(Enum):
     Identity = 0
     Linear = 1
